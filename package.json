@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "16.2.11",
@@ -20,6 +22,7 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
+    "jest": "^30.4.2",
     "prettier": "^3.9.6",
     "tailwindcss": "^4"
   }
